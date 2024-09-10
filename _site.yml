@@ -1,0 +1,16 @@
+name: "our-website"
+navbar:
+  title: "Our collab website"
+  left: 
+    - text: "car"
+    href: index.html
+    - text: "about"
+    href: about.html
+output_dir
+output_dir:"."
+output:
+  html_document:
+    theme: cerulean
+    highlight: textmate
+    toc: true 
+    toc_float: true
